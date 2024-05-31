@@ -1,0 +1,24 @@
+{
+    "palabras": [
+        {
+            "id": "1",
+            "value": "MIEDO"
+        },
+        {
+            "id": "2", 
+            "value": "ACTOR"
+        },
+        {
+            "id": "3",
+            "value": "GAFAS"
+        },
+        {
+            "id": "4",
+            "value": "MARCA"
+        },
+        {
+            "id": "5",
+            "value": "NADAR"
+        }
+    ]
+}

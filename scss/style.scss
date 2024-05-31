@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    //border: 1px solid red;
+}
+
+.contenedor{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.titulo{
+    background-color: rgb(229, 227, 67);
+    padding: 20px;
+    border-bottom: 10px solid black;    
+    
+    h1{
+        padding: 20px 0;
+        text-align: center;
+    }
+}
+
+nav{
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+
+    button{
+        margin: 10px;
+    }
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+
+    .ahorcadoImg{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+
+        #imgAhorcado{
+            max-width: 100%;
+            max-height: 350px;
+        }
+        #imgWoL{
+            max-width: 100%;
+            max-height: 80px;   
+        }
+    }
+
+    .palabra{
+        display: flex;
+        justify-content: center;
+
+        .posicion{
+            height: 30px;
+            width: 30px;
+            margin: 0 5px;
+            border: 1px solid rgb(105, 103, 238);
+            border-radius: 5px;
+            text-align: center;
+        }
+    }
+
+    .letraJugadorDiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        input{
+            max-width: 75px;
+            margin: 10px 0;
+        }
+    }
+}

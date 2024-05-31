@@ -1,0 +1,11 @@
+{
+  "name": "ahorcado_js",
+  "version": "1.0.0",
+  "description": "Juego del ahoraco ahora en el navegador :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jorge Tapia",
+  "license": "ISC"
+}
